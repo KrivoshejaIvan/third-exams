@@ -1,0 +1,199 @@
+﻿
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: "Sarabun", Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f3f0e9;
+  color: #272727;
+}
+ul {
+  list-style: none;
+}
+a {
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+
+.row {
+  width: 100%;
+}
+.coll50 {
+  width: 49.9%;
+}
+header {
+  width: 100%;
+}
+section {
+  width: 93%;
+  margin: 0 0 0 auto;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+.header-section .logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 1.71em;
+  width: 75px;
+  height: 94px;
+  padding-top: 22px;
+  color: #272727;
+}
+nav {
+  width: 80%;
+  background-color: #272727;
+}
+nav .header-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 135px 0 27px;
+  font-size: 1.55em;
+}
+.header-menu li a {
+  display: block;
+  height: 94px;
+  line-height: 94px;
+}
+.healthy-section {
+  color:#272727;
+  display: flex;
+  justify-content: space-between;
+}
+.healthy-section .healthy-content {
+  padding: 251px 0 0 0;
+}
+.healthy-section .healthy-content h1  {
+   font-weight: bold;
+   font-size: 7.3em;
+  padding-bottom: 24px;
+ }
+.healthy-section .healthy-content p  {
+  font-size: 1.7em;
+}
+button {
+  width: 45%;
+  height: 52px;
+  line-height: 52px;
+  margin-top: 52px;
+  background-color: #42802f;
+  border:none;
+  border-radius: 10px;
+  outline: none;
+  font-family: "Sarabun", Arial, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.71em;
+}
+.detox-work .work-text {
+  width: 50%;
+  margin: 0 auto;
+  padding: 101px 0 45px 0;
+}
+.detox-work .work-text h2 {
+  text-align: center;
+  font-size: 3em;
+}
+.detox-work .work-text p {
+  text-align: center;
+  font-size: 1.55em;
+}
+.smoothies-section {
+  width: 100%;
+  background-color: #fff;
+  padding-bottom: 99px;
+}
+.smoothies-section h2 {
+  text-align: center;
+  font-size: 2.5em;
+  padding: 45px 0 22px 0;
+}
+.smoothies-section .smoothies-logo {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
+}
+.smoothies-section .smoothies-logo span {
+  width: 151px;
+  display: block;
+  font-size: 1.71em;
+  text-align: center;
+}
+.program-section {
+  padding: 92px 0 100px 0;
+  margin: 0 auto;
+}
+.program-section h2 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 64px;
+}
+.program-section .bottle-tab {
+  display: flex;
+  justify-content: space-around;
+}
+.program-section .bottle-tab .bottle-item h3 {
+  font-size: 6.1em;
+}
+.program-section .bottle-tab .bottle-item p {
+  font-size: 1.55em;
+  font-weight: bold;
+}
+.program-section .program-info {
+  width: 39%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 69px 0 24px 0;
+  font-size: 1.55em;
+}
+.program-section a{
+  display: block;
+  width: 136px;
+  margin: 0 auto;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #272727;
+  text-decoration: underline;
+}
+.program-section button {
+  margin: auto;
+  display: block;
+}
+.question-section {
+  width: 100%;
+  background-color: #272727;
+  color: #ffffff;
+  padding: 39px 0 75px 0;
+}
+.question-section h3 {
+  font-size: 3em;
+  text-align: center;
+}
+.question-section .section-text {
+  width: 60%;
+  margin-left: 134px;
+  font-size: 1.55em;
+}
+.question-section .section-text p {
+  padding-bottom: 28px;
+}
+.section-reviews {
+  width: 100%;
+  background-color: #fff;
+}
+.section-reviews h2 {
+  text-align: center;
+}
